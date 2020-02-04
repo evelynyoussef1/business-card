@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+  /*this is where i put the background color*/
+    background-color:rgb(132, 139, 124);
+    font-family: 'Raleway', sans-serif;
+    
+}
+/* the main container */
+
+.front-side,
+.back-side {
+  width: 220px;
+  height: 390px;
+  /* display: grid; */
+  /* each student will customize based on their grid */
+  /* grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 4% 92% 4%; */
+  position: relative;
+  /* adjust this to space out the cards */
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:rgb(26, 25, 25);
+}
+
+.front-side{
+  background-image: url('frontCoverBC.svg');
+}
+.back-side{
+  background-image: url(patternBC.svg);
+}
+.name{
+  display: grid;
+  position: relative;
+  margin-left:30px;
+  padding: 10px;
+  margin-top:310px;
+  text-align: center;
+
+}
+
+.secondary{
+  display: grid;
+  position: relative;
+  margin-left:20px;
+
+}
+
+
+
+h5{
+  color:white;
+  font-size: 8;
+}
+
