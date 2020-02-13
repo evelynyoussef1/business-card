@@ -30,29 +30,38 @@ body {
 }
 
 .front-side{
-  background-image: url('frontCoverBC.svg');
+  background-image: url('frontCoverBCNew.svg');
 }
 .back-side{
-  background-image: url(patternBC.svg);
+  background-image: url("patternBC.svg");
 }
 .name{
   display: grid;
   position: relative;
   margin-left:30px;
   padding: 10px;
-  margin-top:310px;
+  margin-bottom:290px;
   text-align: center;
 
 }
 
-.secondary{
+.icon-container{
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   position: relative;
   margin-left:20px;
-
+  margin-bottom:150px;
 }
 
-
+h2{
+  color: rgb(226, 226, 226);
+  font-size: 25;
+  font-family: "Oswald";
+  font-weight: 100;
+  text-align: center;
+  padding-top: 320;
+}
 
 h5{
   color:white;
